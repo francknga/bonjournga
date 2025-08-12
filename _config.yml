@@ -1,0 +1,24 @@
+title: "Bonjour Nga"
+description: "Blog de mes 4 voyages au Vietnam, façon série TV"
+url: "https://bonjournga.com"
+baseurl: ""
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+paginate: 5
+author:
+  name: "Franck Nga"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Globe-trotteur passionné, je partage ici mes aventures au Vietnam."
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+minimal_mistakes_skin: "air"
